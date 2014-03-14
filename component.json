@@ -1,0 +1,56 @@
+{
+  "name": "noflo-filesystem",
+  "description": "Filesystem components for the NoFlo flow-based programming environment",
+  "author": "Henri Bergius <henri.bergius@iki.fi>",
+  "version": "1.0.4",
+  "repo": "noflo/noflo-filesystem",
+  "keywords": [
+  ],
+  "dependencies": {
+    "noflo/noflo": "*"
+  },
+  "scripts": [
+    "components/BaseName.coffee",
+    "components/CopyFile.coffee",
+    "components/CopyTree.coffee",
+    "components/DirName.coffee",
+    "components/DirectoryBuffer.coffee",
+    "components/DirectoryGroupBuffer.coffee",
+    "components/ExtName.coffee",
+    "components/MakeDir.coffee",
+    "components/MimeRouter.coffee",
+    "components/MimeDocumentRouter.coffee",
+    "components/ReadDir.coffee",
+    "components/ReadFile.coffee",
+    "components/ReadFileSync.coffee",
+    "components/ReadFileRaw.coffee",
+    "components/Stat.coffee",
+    "components/WriteFile.coffee",
+    "components/WriteFileRaw.coffee",
+    "index.js"
+  ],
+  "json": [
+    "component.json"
+  ],
+  "noflo": {
+    "components": {
+      "BaseName": "components/BaseName.coffee",
+      "CopyFile": "components/CopyFile.coffee",
+      "CopyTree": "components/CopyTree.coffee",
+      "DirName": "components/DirName.coffee",
+      "DirectoryBuffer": "components/DirectoryBuffer.coffee",
+      "DirectoryGroupBuffer": "components/DirectoryGroupBuffer.coffee",
+      "ExtName": "components/ExtName.coffee",
+      "MakeDir": "components/MakeDir.coffee",
+      "MimeRouter": "components/MimeRouter.coffee",
+      "MimeDocumentRouter": "components/MimeDocumentRouter.coffee",
+      "ReadDir": "components/ReadDir.coffee",
+      "ReadFile": "components/ReadFile.coffee",
+      "ReadFileSync": "components/ReadFileSync.coffee",
+      "ReadFileRaw": "components/ReadFileRaw.coffee",
+      "Stat": "components/Stat.coffee",
+      "WriteFile": "components/WriteFile.coffee",
+      "WriteFileRaw": "components/WriteFileRaw.coffee"
+    }
+  }
+}
