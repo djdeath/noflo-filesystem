@@ -50,7 +50,8 @@
       "Stat": "./components/Stat.coffee",
       "Unlink": "./components/Unlink.coffee",
       "WriteFile": "./components/WriteFile.coffee",
-      "WriteFileRaw": "./components/WriteFileRaw.coffee"
+      "WriteFileRaw": "./components/WriteFileRaw.coffee",
+      "WriteStream": "./components/WriteStream.coffee"
     }
   },
   "scripts": {
