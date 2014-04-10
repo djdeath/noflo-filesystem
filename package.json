@@ -33,6 +33,7 @@
       "CopyFile": "./components/CopyFile.coffee",
       "CopyTree": "./components/CopyTree.coffee",
       "CreateReadStream": "./components/CreateReadStream.coffee",
+      "CreateWriteStream": "./components/CreateWriteStream.coffee",
       "DirName": "./components/DirName.coffee",
       "DirectoryBuffer": "./components/DirectoryBuffer.coffee",
       "DirectoryGroupBuffer": "./components/DirectoryGroupBuffer.coffee",
