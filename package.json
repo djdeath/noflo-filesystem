@@ -43,6 +43,7 @@
       "MimeRouter": "./components/MimeRouter.coffee",
       "MimeDocumentRouter": "./components/MimeDocumentRouter.coffee",
       "Normalize": "./components/Normalize.coffee",
+      "PauseReadStream": "./components/PauseReadStream.coffee",
       "ReadDir": "./components/ReadDir.coffee",
       "ReadFile": "./components/ReadFile.coffee",
       "ReadFileSync": "./components/ReadFileSync.coffee",
