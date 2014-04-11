@@ -37,6 +37,7 @@
       "DirName": "./components/DirName.coffee",
       "DirectoryBuffer": "./components/DirectoryBuffer.coffee",
       "DirectoryGroupBuffer": "./components/DirectoryGroupBuffer.coffee",
+      "EndWriteStream": "./components/EndWriteStream.coffee",
       "ExtName": "./components/ExtName.coffee",
       "MakeDir": "./components/MakeDir.coffee",
       "MimeRouter": "./components/MimeRouter.coffee",
