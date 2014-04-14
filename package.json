@@ -31,6 +31,7 @@
     "components": {
       "BaseName": "./components/BaseName.coffee",
       "CopyFile": "./components/CopyFile.coffee",
+      "CopyFileSequential": "./components/CopyFileSequential.coffee",
       "CopyTree": "./components/CopyTree.coffee",
       "CreateReadStream": "./components/CreateReadStream.coffee",
       "CreateWriteStream": "./components/CreateWriteStream.coffee",
