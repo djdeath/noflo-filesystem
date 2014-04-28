@@ -1,0 +1,77 @@
+{
+  "name": "noflo-filesystem",
+  "description": "Filesystem components for the NoFlo flow-based programming environment",
+  "version": "1.0.5",
+  "author": {
+    "name": "Henri Bergius",
+    "email": "henri.bergius@iki.fi"
+  },
+  "repo": "noflo/noflo-filesystem",
+  "keywords": [
+  ],
+  "scripts": [
+    "index.js",
+    "components/BaseName.coffee",
+    "components/CopyFile.coffee",
+    "components/CopyFileSequential.coffee",
+    "components/CopyTree.coffee",
+    "components/CreateReadStream.coffee",
+    "components/CreateWriteStream.coffee",
+    "components/DirName.coffee",
+    "components/DirectoryBuffer.coffee",
+    "components/DirectoryGroupBuffer.coffee",
+    "components/EndWriteStream.coffee",
+    "components/ExtName.coffee",
+    "components/MakeDir.coffee",
+    "components/MimeRouter.coffee",
+    "components/MimeDocumentRouter.coffee",
+    "components/Normalize.coffee",
+    "components/PauseReadStream.coffee",
+    "components/ReadDir.coffee",
+    "components/ReadFile.coffee",
+    "components/ReadFileSync.coffee",
+    "components/ReadFileRaw.coffee",
+    "components/Resolve.coffee",
+    "components/ResumeReadStream.coffee",
+    "components/Stat.coffee",
+    "components/Unlink.coffee",
+    "components/WriteFile.coffee",
+    "components/WriteFileRaw.coffee",
+    "components/WriteStream.coffee"
+  ],
+  "json": [
+    "component.json"
+  ],
+  "noflo": {
+    "icon": "file",
+    "components": {
+      "BaseName": "components/BaseName.coffee",
+      "CopyFile": "components/CopyFile.coffee",
+      "CopyFileSequential": "components/CopyFileSequential.coffee",
+      "CopyTree": "components/CopyTree.coffee",
+      "CreateReadStream": "components/CreateReadStream.coffee",
+      "CreateWriteStream": "components/CreateWriteStream.coffee",
+      "DirName": "components/DirName.coffee",
+      "DirectoryBuffer": "components/DirectoryBuffer.coffee",
+      "DirectoryGroupBuffer": "components/DirectoryGroupBuffer.coffee",
+      "EndWriteStream": "components/EndWriteStream.coffee",
+      "ExtName": "components/ExtName.coffee",
+      "MakeDir": "components/MakeDir.coffee",
+      "MimeRouter": "components/MimeRouter.coffee",
+      "MimeDocumentRouter": "components/MimeDocumentRouter.coffee",
+      "Normalize": "components/Normalize.coffee",
+      "PauseReadStream": "components/PauseReadStream.coffee",
+      "ReadDir": "components/ReadDir.coffee",
+      "ReadFile": "components/ReadFile.coffee",
+      "ReadFileSync": "components/ReadFileSync.coffee",
+      "ReadFileRaw": "components/ReadFileRaw.coffee",
+      "Resolve": "components/Resolve.coffee",
+      "ResumeReadStream": "components/ResumeReadStream.coffee",
+      "Stat": "components/Stat.coffee",
+      "Unlink": "components/Unlink.coffee",
+      "WriteFile": "components/WriteFile.coffee",
+      "WriteFileRaw": "components/WriteFileRaw.coffee",
+      "WriteStream": "components/WriteStream.coffee"
+    }
+  }
+}
